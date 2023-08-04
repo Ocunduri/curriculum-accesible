@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+body {
+    font-family: 'Poppins', sans-serif;;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #555;
+}
+
+.cv-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    border: 5px solid #fff;
+    border-radius: 50%;
+    margin: 100px 0px 50px 40px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.personal-information{
+    display: inline-block;
+    margin: 0px auto;
+    
+}
+
+.personal-information h1 {
+    color: #555;
+    margin: 0;
+    font-size: 3rem;
+}
+
+.personal-information p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #BA8973;
+}
+
+.contact{
+    margin-top: 50px;    
+}
+
+h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.experience-table {
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #BA8973;
+    border-radius: 5px;
+    width: 100%;
+}
+
+td {
+    padding: 20px;
+    border: none;
+}
+
+article {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.2rem;
+}
+
+article p {
+    margin: 0;
+    font-size: 1rem;
+    color: #BA8973;
+}
+
