@@ -1,68 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Curriculum</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="cv-container">
         <header>
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
-                <circle cx="60" cy="60" r="140" fill="#10181E" />
-            </svg>
-            <img src="images.jpeg" alt="imagen provisional">  
-            <section class="personal-information">
-                <h1>Oscar Cunduri</h1>
-                <p>Desarrollador Backend</p>
+            <section class="personal-image">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+                    <circle cx="60" cy="60" r="140" fill="#10181E" />
+                </svg>
+                <img src="user_image.jpeg" alt="Fotografía de Oscar Cunduri" tabindex="1">
             </section>
-            
+
+            <section class="personal-information">
+                <h1 tabindex="2">Oscar Cunduri</h1>
+                <p tabindex="3">Desarrollador Backend</p>
+            </section>
         </header>
 
         <section class="contact">
-            <h2>Contacto</h2>
+            <h2 tabindex="4">Contacto</h2>
             <ul>
-                <li><strong>Email:</strong> <a href="mailto:correo@example.com">oscar_cg22@hotmail.com</a></li>
-                <li><strong>Teléfono:</strong> <a href="0988074868">0988074868</a></li>
+                <li><strong tabindex="5">Email:</strong> <a href="mailto:correo@example.com"
+                        tabindex="6">oscar_cg22@hotmail.com</a></li>
+                <li><strong tabindex="7">Teléfono:</strong> <a href="0988074868" tabindex="8">0988074868</a></li>
+                <li "><strong tabindex=" 9">Portafolio:</strong> <a href="https://github.com/Ocunduri"
+                        tabindex="10">@Ocunduri</a></li>
             </ul>
         </section>
         <section class="education">
-            <h2>Estudios</h2>
+            <h2 tabindex="11">Estudios</h2>
             <table class="education-table">
                 <tr>
                     <td>
                         <article>
-                            <h3>Grado en Ingeniería de Software</h3>
-                            <p>Escuela Politécnica Nacional - 2024</p>
+                            <h3 tabindex="12">Grado en Ingeniería de Software</h3>
+                            <p tabindex="13">Escuela Politécnica Nacional - 2024</p>
                         </article>
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <article>
-                            <h3>Bachillerato en comercialización y ventas</h3>
-                            <p>Unidad Educativa "Los Shyris" - 2018</p>
+                            <h3 tabindex="14">Bachillerato en comercialización y ventas</h3>
+                            <p tabindex="15">Unidad Educativa "Los Shyris" - 2018</p>
                         </article>
                     </td>
                 </tr>
             </table>
-        </section> 
+        </section>
+        <section class="skills">
+            <h2 tabindex="16">Habilidades</h2>
+            <ul>
+                <li tabindex="17">Java <span class="skill-percentage">80%</span></li>
+                <li tabindex="19">JavaScript <span class="skill-percentage">85%</span></li>
+                <li tabindex="21">React <span class="skill-percentage">85%</span></li>
+                <li tabindex="23">HTML <span class="skill-percentage">90%</span></li>
+                <li tabindex="25">CSS <span class="skill-percentage">85%</span></li>
+                <li tabindex="27">Bases de Datos <span class="skill-percentage">75%</span></li>
+            </ul>
+        </section>
         <section class="references">
-            <h2>Referencias</h2>
+            <h2 tabindex="29">Referencias</h2>
             <article>
-                <h3>Mónica Morillo - Unidad Educativa COTAC</h3>
-                <p>0985478561</p>
+                <h3 tabindex="30">Mónica Morillo - Unidad Educativa COTAC</h3>
+                <p tabindex="31">0985478561</p>
             </article>
             <article>
-                <h3>Nelson Cantos - Unidad Educativa Hontanar</h3>
-                <p>0985478561</p>
+                <h3 tabindex="32">Nelson Cantos - Unidad Educativa Hontanar</h3>
+                <p tabindex="33">0985478561</p>
             </article>
             <article>
-                <h3>Lenin Villagomez - Ministerio de Gobierno</h3>
-                <p>0985478561</p>
+                <h3 tabindex="34">Lenin Villagomez - Ministerio de Gobierno</h3>
+                <p tabindex="35">0985478561</p>
             </article>
-        </section> 
+        </section>
     </div>
 </body>
+
 </html>
